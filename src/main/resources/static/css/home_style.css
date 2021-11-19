@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+}
+nav .header {
+    flex-basis: 20%;
+    text-align: center;
+}
+nav .header h1{
+    margin: 16px 0 16px 0;
+}
+nav .emptydiv {
+    flex-basis: 34%;
+}
+nav .options {
+    font-size: 16px;
+    padding-right: 4%;
+    flex-basis: 40%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 38%;
+    list-style: none;
+}
+nav ul li {
+    flex-basis: 98%;
+}
+nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
